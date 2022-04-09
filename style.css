@@ -1,0 +1,72 @@
+
+.container {
+    text-align: center;
+    margin: 3em auto;
+    height: 650px;
+    width: 650px;
+    border: 2px solid black;
+    border-radius: 2em;
+    box-shadow: 5px 10px 10px;
+}
+
+#displayNum {
+    text-align: right;
+    border: 3px solid;
+    border-radius: 3em;
+    margin: 1em auto;
+    height: 2em;
+    width: 90%;
+    font-size: 2em;
+}
+
+.functionArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 45vh;
+}
+
+.functionArea button {
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+    width: 150px;
+    height:80px;
+    margin: 5px auto;
+    border-radius: 5em;
+}
+
+.clear {
+    border: 3px solid;
+    border-radius: 3em;
+    text-align: center;
+    width: 60px;
+    height: 20px;
+    margin-top: 8em;
+    margin-left: 18.5em; 
+    cursor: pointer;
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 400px;
+        height: 75vh;
+        margin: 5em auto;
+    }
+
+    .functionArea {
+        height: 25vh;
+    }
+
+    .functionArea button {
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .clear {
+        margin-top: 10em;
+        margin-left: 10.5em;
+    }
+
+}
