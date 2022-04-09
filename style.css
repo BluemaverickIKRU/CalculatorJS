@@ -50,8 +50,8 @@
 @media only screen and (max-width: 768px) {
     .container {
         width: 400px;
-        height: 75vh;
-        margin: 5em auto;
+        height: 50vh;
+        margin: 15em auto;
     }
 
     .functionArea {
